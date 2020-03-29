@@ -1,0 +1,279 @@
+section {
+  width: 100%;
+  max-width: 86em;
+   margin: 0;
+   height: 170em;
+   position: relative;
+    background: transparent;
+    vertical-align: baseline;
+    background-color: #f2f2f2;
+    
+  .box {
+    width: 100%;
+    max-width: 71em;
+   height: 170em;
+position: relative;
+   margin-left: 100px;
+   margin-right: 100px;
+  background-color: white;
+   padding-left: 30px;
+   padding-right: 30px;
+   position: relative;
+    
+   .heading {
+    max-width: 71em;
+     width: 100%;   
+      text-align: center;
+      background-color: white;
+      color:black;
+    position: fixed;
+    z-index: 99999999;
+    padding-right: 30px;
+    margin-left: -30px;
+    padding-left: 30px;
+   
+}
+    .head {
+   
+     
+     float: left;
+      
+     
+           
+       } 
+  .menu {
+    z-index: 1;
+      width: 30em;
+      height: 6.5em;
+      float: right;
+      vertical-align: middle;
+     font-family: 'Raleway', sans-serif;
+     padding-top: 27px; 
+      .umumiuli{
+       list-style-type: none; 
+       display: flex;
+       justify-content: space-between;
+       letter-spacing: 2px;
+       font-size: small;
+       z-index: 9999;
+       
+       .dp-content{
+        display: none;
+        position: absolute;
+        background-color: white;
+        z-index: 9999;
+        box-shadow: 0 8px 16px black;
+        text-decoration: none;
+        text-align: left;
+        width: 180px;
+        height: 150px;
+        list-style-type: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 10px;
+        padding-top: 15px;
+        padding-right: 15px;
+        
+      }
+        .dropdown:hover .dp-content{
+          display: block;
+         z-index: 9999;
+         
+        }
+        .dp-content li:hover{
+          background-color: rgb(182, 177, 177);
+z-index: 9999;
+        }
+      
+.seconddropdown{
+  display: none;
+  position: absolute;
+  background-color: white;
+  z-index: 9999;
+  box-shadow: 0 8px 16px black;
+  text-decoration: none;
+  text-align: left;
+  width: 210px;
+  height: 155px;
+  list-style-type: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 10px;
+  padding-top: 12px;
+  padding-right: 10px;
+
+  
+}
+.dropdown2:hover .seconddropdown{
+  display: block;
+  z-index: 9999;
+}
+ .dropdown2 li:hover {
+   background-color: rgb(192, 187, 187);
+  //  z-index: 9999;
+  position: relative;
+  z-index: 1;
+ } 
+ 
+  .seconddropdown2{
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 9999;
+    box-shadow: 0 8px 16px black;
+    text-decoration: none;
+    text-align: right;
+    width: 210px;
+    height: 80px;
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-right: 10px;
+    
+  }
+  .dropdown3:hover .seconddropdown2{
+    display: block;
+    z-index: 9999;
+  }
+   .dropdown3 li:hover {
+     background-color: rgb(192, 187, 187);
+     z-index: 9999;
+   } 
+ 
+   }
+
+          }
+          #carouselExampleControls{
+            position: relative;
+            z-index: 0;
+            padding-top: 100px;
+          }
+         
+        }
+      
+      
+  
+  .box2{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+ 
+  cursor: pointer;
+ 
+  }
+
+.umumi{
+  .yazi{
+   font-family: 'Raleway',sans-serif;
+   letter-spacing: 2px;
+   font-size: smaller;
+   color: rgb(51, 51, 51);
+  }
+  .lorem{
+    text-align: center;
+    color: grey;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .buton1{
+    width: 67em;
+    text-align: center;
+    
+  .button1{
+    text-align: center;
+    background-color: white;
+    color: rgb(51, 51, 51);
+    border: 2px solid  rgb(51, 51, 51) ;
+    font-family: 'Raleway',sans-serif;
+    width: 14em;
+    height: 4em;
+    letter-spacing: 2px;
+    
+   cursor: pointer;
+   
+  }
+}
+}
+.flex{
+ 
+  display: flex;
+  justify-content: space-around;
+  .flex1{
+    color: grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    &:hover.flex1{
+      transform: scale(1.3);
+      cursor: pointer;
+    }
+   
+  }
+}
+.flex2{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 300px;
+  padding-right: 300px;
+  font-size: smaller;
+  color: grey;
+  cursor: pointer;
+}
+.flex3{
+
+  color: rgb(54, 54, 54);
+  text-align: center;
+  letter-spacing: 2px;
+  .footer1{
+    width: 68em;
+    height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    // padding-left: 456px;
+    padding-top: 25px;
+    letter-spacing:15px ;
+    padding-left: 471px;
+    color: rgb(210, 210, 210);
+  }
+  .fa-facebook{
+    transition-duration: 0.4s;
+  }
+  .fa-facebook:hover {
+  background-color: white;
+   color: rgb(68, 67, 67);
+  }
+  .fa-twitter{
+    transition-duration: 0.4s;
+  }
+  .fa-twitter:hover {
+  background-color: white;
+   color: rgb(68, 67, 67);
+  }
+  .fa-pinterest{
+    transition-duration: 0.4s;
+  }
+  .fa-pinterest:hover {
+  background-color: white;
+   color: rgb(68, 67, 67);
+  }
+  .fa-google-plus-g{
+    transition-duration: 0.4s;
+  }
+  .fa-google-plus-g:hover {
+  background-color: white;
+   color: rgb(68, 67, 67);
+  }
+
+}
+
+
+}
+@media screen and (max-width: 768px){
+  
+    .b1{
+      width:100% ;
+    }
+    .b2{
+      width: 100%;
+    }
+  }
